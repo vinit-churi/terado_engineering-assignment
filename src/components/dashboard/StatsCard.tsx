@@ -22,7 +22,9 @@ type TStatsCard = {
 
 const StatsCard = ({ data }: TStatsCard) => {
   return (
-    <div className={`rounded-md p-4 flex-[1_1_0px]  ${data.color}`}>
+    <div
+      className={`rounded-md p-4 flex-[1_1_0px] max-[870px]:flex-[0_1_48%] max-[500px]:flex-[1_1_100%]  ${data.color}`}
+    >
       <div className="flex justify-between items-center">
         <div
           className={`flex justify-center items-center rounded-full h-12 w-12 ${data.iconBackground}`}

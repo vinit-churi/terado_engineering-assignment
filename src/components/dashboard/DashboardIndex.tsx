@@ -5,9 +5,9 @@ import DashboardTable from "./DashboardTable";
 
 const DashboardIndex = () => {
   return (
-    <div className="min-h-0 overflow-auto">
+    <div className="min-h-0 overflow-auto max-[1100px] col-start-2 row-start-2 overflow-x-hidden">
       <Stats />
-      <div className="flex gap-4 px-4">
+      <div className="flex gap-4 px-4 max-[810px]:flex-col">
         <DashboardChart />
         <DashboardMap />
       </div>
