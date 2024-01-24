@@ -1,5 +1,5 @@
 const DashboardIndex = () => {
-  return <div className="">DashboardIndex</div>;
+  return <div className=""></div>;
 };
 
 export default DashboardIndex;
