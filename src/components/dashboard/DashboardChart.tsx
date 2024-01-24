@@ -23,7 +23,7 @@ const DashboardChart = () => {
   return (
     <div className="flex-1 h-max border border-solid border-slate-400 rounded-md pt-4">
       <div className="flex justify-between px-6 mb-5">
-        <h2 className="text-3xl font-semibold">Lifetime Sales</h2>
+        <h2 className="text-xl font-semibold">Lifetime Sales</h2>
         <Select
           value={timeFrame}
           onValueChange={(value) => setTimeFrame(value)}
