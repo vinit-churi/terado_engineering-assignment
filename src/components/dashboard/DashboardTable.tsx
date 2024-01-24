@@ -27,7 +27,7 @@ const columns: GridColDef[] = [
     field: "action",
     headerName: "action",
     flex: 1,
-    renderCell: (params: GridRenderCellParams) => (
+    renderCell: () => (
       <IconButton>
         <MoreVertIcon />
       </IconButton>
