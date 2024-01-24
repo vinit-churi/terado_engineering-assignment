@@ -3,7 +3,7 @@ import Sidebar from "@/components/common/Sidebar";
 import { Outlet } from "react-router-dom";
 function Dashboard() {
   return (
-    <div className="grid grid-cols-[300px_auto] grid-rows-[90px_auto] min-h-screen">
+    <div className="grid grid-cols-[300px_auto] grid-rows-[90px_auto] h-screen min-h-0">
       <Navbar />
       <Sidebar />
       <Outlet />
