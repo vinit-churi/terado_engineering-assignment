@@ -9,16 +9,6 @@ import {
 import { useState } from "react";
 const DashboardMap = () => {
   const [country, setCountry] = useState("india");
-  const countryData = {
-    india: {
-      name: "INDIA",
-      value: "12.4B",
-    },
-    usa: {
-      name: "USA",
-      value: "54.2B",
-    },
-  };
   return (
     <div className="flex-[0_0_400px] flex flex-col  self-stretch border border-solid border-slate-400 rounded-md">
       <div className="flex justify-between px-6 my-4">

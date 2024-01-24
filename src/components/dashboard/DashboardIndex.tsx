@@ -1,6 +1,7 @@
 import Stats from "@/components/dashboard/Stats";
 import DashboardChart from "./DashboardChart";
 import DashboardMap from "./DashboardMap";
+import DashboardTable from "./DashboardTable";
 
 const DashboardIndex = () => {
   return (
@@ -11,7 +12,7 @@ const DashboardIndex = () => {
         <DashboardMap />
       </div>
       <div className="m-4 h-96 w-auto rounded-md border border-solid border-slate-400">
-        {/* table */}
+        <DashboardTable />
       </div>
     </div>
   );
